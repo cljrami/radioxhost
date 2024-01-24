@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Source+Sans+3&display=swap');
+
+
+/*--------------------------------------------------------------
+## VARIABLES
+----------------------------------------------------------------*/
+
+:root {
+    --main-bg-color: #181818;
+    --default-font: 'Poppins', sans-serif;
+    --FontAwesome: 'FontAwesome';
+    --default-font-size: 16px;
+    --default-font-color: #fff;
+    --default-hover-text: #c00707;
+    --default-h1-size: 11vmin;
+    --default-h1-hero-size: 8vmin;
+    --default-h2-hero-size: 3vmin;
+    --default-h2-size: 7vmin;
+    --default-h3-size: 8vmin;
+    --default-h3-bajada: 3vmin;
+    --default-h3-color: #a3a3a3;
+    /*TOP TOP SCROLL*/
+    --red: #da2c4d;
+    --yellow: #f8ab37;
+    --green: #2ecc71;
+    --white: #ffffff;
+    --grey-light: #f2f7f9;
+    --grey: #ecedf3;
+    --black: #080808;
+    --black-blue: #1f2029;
+    --black-blue-light: #353746;
+    --black-blue-light-2: #404255;
+    --black-blue-light-3: #4b4d64;
+    --black-light: #424455;
+    --bg-hero-image: url(../../assets/imgs/fondos/hero.webp);
+    --bg-hero-image-home: url('../../assets/imgs/fondos/herohome.webp');
+
+
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Inter';
+  background-color: #303642;
+    background: linear-gradient(#303642, #737586); 
+    
+
+}
+
+/*-------------------------------------------------------------- 
+## ESTILOS BOTONES RRSS 
+----------------------------------------------------------------*/
+@media (min-width: 576px) {
+    .fab fa-tiktok {
+        font-size: 30px,
+
+    }
+
+}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {
+    .fab fa-tiktok {
+        font-size: 100px,
+
+    } 
+}

@@ -1,0 +1,24 @@
+---
+//ASTRO SEO
+import { SEO } from "astro-seo";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import "../../public/estilos/global.css";
+const { title, description, canonical } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es_ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script
+      src="https://kit.fontawesome.com/acf431a76a.js"
+      crossorigin="anonymous"></script>
+
+    <SEO title={title} description={description} canonical={canonical} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

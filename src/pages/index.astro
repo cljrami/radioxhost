@@ -1,0 +1,37 @@
+---
+// COMPONENTES
+import RadioHome from "../components/RadioHome/RadioHome.astro";
+
+//ESTILO CSS GLOBAL
+
+import LayoutBase from "../layouts/LayoutBase.astro";
+---
+
+<LayoutBase
+  siteName={"Le Website"}
+  title="Titulo"
+  titleDefault=""
+  description="Agent"
+  canonical="https://www.emol.com"
+  charset="utf-8"
+  openGraph={{
+    basic: {
+      title: "Tinker Tailor Soldier & Spy",
+      type: "website",
+      image:
+        "https://user-images.githubusercontent.com/5182256/131216951-8f74f425-f775-463d-a11b-0e01ad9fce8d.png",
+      url: "smiley",
+    },
+    optional: {
+      audio: "audio_link",
+      description: "optional description",
+      determiner: "an",
+      locale: "de_DE",
+      localeAlternate: ["en_US"],
+      siteName: "test",
+      video: "video_url",
+    },
+  }}
+>
+  <RadioHome />
+</LayoutBase>
