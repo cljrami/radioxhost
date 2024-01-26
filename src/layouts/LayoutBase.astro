@@ -1,8 +1,7 @@
 ---
 //ASTRO SEO
 import { SEO } from "astro-seo";
-import "bootstrap/dist/css/bootstrap.min.css";
-// import "../../public/estilos/global.css";
+
 const { title, description, canonical } = Astro.props;
 ---
 
@@ -15,7 +14,10 @@ const { title, description, canonical } = Astro.props;
     <script
       src="https://kit.fontawesome.com/acf431a76a.js"
       crossorigin="anonymous"></script>
-
+    <script
+      id="sonic_js"
+      data-port="8070"
+      src="https://streaming01.xhost.cl/cp/widgets.js?r=880"></script>
     <SEO title={title} description={description} canonical={canonical} />
   </head>
   <body>
